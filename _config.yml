@@ -3,9 +3,9 @@
 # Site wide configuration
 ####################################
 #
-title: Manhwabang
+title: manhwabang
 email:
-description: A bad blog about fansubbing.
+description: Fansub Reviews
 url: https://blankaex.github.io/manhwabang
 keywords: [blankaex, convex, blog, anime, fansubbing]
 
@@ -36,7 +36,7 @@ owner:
   name: manhwabang
   avatar: 
   job: "A bad blog about fansubbing"
-  bio: "A bad blog about fansubbing."
+  bio: "aaa"
   email:
   disqus-shortname:
   twitter: #username
