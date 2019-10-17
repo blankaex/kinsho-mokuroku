@@ -6,7 +6,9 @@ layout: default
 <section class="post">
   <header class="post-header">
     <p class="post-meta">
-      {{ post.date | date: "%-d %b %Y" | upcase }} • {{ post.author }}
+      {{ post.date | date: "%-d %b %Y" }}
+      •
+      {{ post.author }}
     </p>
     <h4>
       <a href="{{ site.url }}{{ post.url }}" class="post-title" title="{{ post.title | escape }}">{{ post.title }}</a>
@@ -19,13 +21,15 @@ layout: default
 
     {% if post.image.feature %}
     <div class="post-image-feature">
-      <img src=
-      {% if post.image.feature contains 'http' %}
-      "{{ post.image.feature }}"
-      {% else %}
-      "{{ site.url }}/img/{{ post.image.feature }}"
-      {% endif %}
-      alt="{{ post.title | escape }} feature image">
+      <a href="{{ site.url }}{{ post.url }}">
+        <img src=
+        {% if post.image.feature contains 'http' %}
+        "{{ post.image.feature }}"
+        {% else %}
+        "{{ site.url }}/img/{{ post.image.feature }}"
+        {% endif %}
+        alt="{{ post.title | escape }} feature image">
+      </a>
     </div><!-- /.image-wrap -->
     {% endif %}
 
@@ -36,6 +40,8 @@ layout: default
       </p>
     </div>
     {% endif %}
+
+    <a href="{{ site.url }}{{ post.url }}">More <small>》</small></a>
 
 </section>
 {% endfor %}

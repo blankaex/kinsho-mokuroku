@@ -9,7 +9,7 @@
   font-size: 0.875em;
   font-family: $font-family-base;
   font-weight: 700;
-  background-color: $primary;
+  background-color: $secondary;
   color: $white;
   border-width: 2px !important;
   border-style: solid !important;
@@ -21,7 +21,7 @@
     border-color: $primary;
   }
   &:hover {
-    background-color: $white;
+    background-color: $background-color;
     color: $primary;
     border-color: $primary;
   }

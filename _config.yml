@@ -7,14 +7,13 @@ title: Manhwabang
 email:
 description: A bad blog about fansubbing.
 url: https://blankaex.github.io/manhwabang
-keywords: ["blog", "jekyll"]
 
 #
 ###################################
 # Jekyll configuration
 ####################################
 #
-timezone:          Europe/Paris
+timezone:          Korea/Seoul
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
@@ -34,7 +33,7 @@ kramdown:
 #
 owner:
   name: manhwabang
-  avatar: #leonids-logo.png
+  avatar: 
   job: "A bad blog about fansubbing"
   bio: "A bad blog about fansubbing."
   email:
