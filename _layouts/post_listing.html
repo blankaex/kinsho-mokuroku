@@ -6,18 +6,7 @@ layout: default
 <section class="post">
   <header class="post-header">
     <p class="post-meta">
-      <span class="post-date">
-        {{ post.date | date: "%-d %b %Y" | upcase }}
-      </span>
-      {% if post.categories.size > 0 %}
-      •
-      {% for cat in post.categories %}
-        <a class="post-cat" href="{{ site.url }}/categories/#{{ cat }}">{{ cat }}</a>
-        {% unless forloop.last %}
-        <span>/</span>
-        {% endunless %}
-      {% endfor %}
-      {% endif %}
+      {{ post.date | date: "%-d %b %Y" | upcase }} • {{ post.author }}
     </p>
     <h4>
       <a href="{{ site.url }}{{ post.url }}" class="post-title" title="{{ post.title | escape }}">{{ post.title }}</a>
@@ -26,21 +15,7 @@ layout: default
       {% endif %}
     </h4>
 
-    {% if post.author %}
-      {% assign author = site.data.authors[post.author] %}
-    {% else %}
-      {% assign author = site.owner %}
-    {% endif %}
-
     </header>
-
-    {% if post.excerpt %}
-    <div class="post-description">
-      <p>
-        {{ post.excerpt }}
-      </p>
-    </div>
-    {% endif %}
 
     {% if post.image.feature %}
     <div class="post-image-feature">
@@ -51,11 +26,15 @@ layout: default
       "{{ site.url }}/img/{{ post.image.feature }}"
       {% endif %}
       alt="{{ post.title | escape }} feature image">
-
-      {% if post.image.credit %}
-      <span class="image-credit">Photo Credit: <a href="{{ post.image.creditlink }}">{{ post.image.credit }}</a></span>
-      {% endif %}
     </div><!-- /.image-wrap -->
+    {% endif %}
+
+    {% if post.excerpt %}
+    <div class="post-description">
+      <p>
+        {{ post.excerpt }}
+      </p>
+    </div>
     {% endif %}
 
 </section>

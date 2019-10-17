@@ -3,10 +3,10 @@
 # Site wide configuration
 ####################################
 #
-title: Leonids
+title: Manhwabang
 email:
-description: A simple and awesome blog theme powered by jekyll.
-url: # the base hostname & protocol for your site
+description: A bad blog about fansubbing.
+url: https://blankaex.github.io/manhwabang
 keywords: ["blog", "jekyll"]
 
 #
@@ -33,10 +33,10 @@ kramdown:
 ####################################
 #
 owner:
-  name: Leonids
-  avatar: leonids-logo.png
-  job: "A jekyll theme"
-  bio: "A simple and awesome blog theme powered by jekyll."
+  name: manhwabang
+  avatar: #leonids-logo.png
+  job: "A bad blog about fansubbing"
+  bio: "A bad blog about fansubbing."
   email:
   disqus-shortname:
   twitter: #username
@@ -69,3 +69,7 @@ owner:
   codepen: #username
   reddit: #username
   telegram: #username
+
+webrick:
+  headers:
+    Access-Control-Allow-Origin: "*"
