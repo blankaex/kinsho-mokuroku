@@ -5,7 +5,7 @@
 #
 title: manhwabang
 email:
-description: Fansub Reviews
+description: ">Unironically reviewing fansubs"
 url: https://blankaex.github.io/manhwabang
 keywords: [blankaex, convex, blog, anime, fansubbing]
 
@@ -33,10 +33,10 @@ kramdown:
 ####################################
 #
 owner:
-  name: manhwabang
+  name: blankaex
   avatar: 
-  job: "A bad blog about fansubbing"
-  bio: "aaa"
+  job:
+  bio:
   email:
   disqus-shortname:
   twitter: #username
