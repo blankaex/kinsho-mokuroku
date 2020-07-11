@@ -1,3 +1,3 @@
 blankaex and convex blog :jeanne:
 
-http://ia.is.maiwaifu.jp/
+https://blankaex.github.io/kinsho-mokuroku/
