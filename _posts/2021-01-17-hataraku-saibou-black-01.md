@@ -2,7 +2,6 @@
 layout: post
 title: "[Official] Hataraku Saibou Black - 01"
 author: convex
-excerpt: ""
 comments: true
 image:
   feature: "2021-01-17-hataraku-saibou-black-01.jpg"
