@@ -7,7 +7,7 @@ title: Kinsho Mokuroku
 email:
 description: ">reviewing fansubs in 2019+2"
 url: https://blankaex.github.io/kinsho-mokuroku
-keywords: [blankaex, convex, blog, anime, fansub, fansubbing, review]
+keywords: [Blankaex, convex, blog, anime, fansub, fansubbing, review]
 
 #
 ###################################
@@ -33,7 +33,7 @@ kramdown:
 ####################################
 #
 owner:
-  name: blankaex
+  name: Blankaex
   avatar: 
   job:
   bio:

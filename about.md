@@ -17,5 +17,5 @@ Kinsho Mokuroku is a blog primarily devoted to discussing the dubious quality of
 
 ### Authors
 
-* blankaex
+* Blankaex
 * convex
