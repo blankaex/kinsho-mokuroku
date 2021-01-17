@@ -5,7 +5,7 @@ author: blankaex
 excerpt: "Save me from my many years of regret."
 comments: true
 image:
-  feature: "2021-01-07-hi-score-girl-06.jpg"
+  feature: "2021-01-17-hi-score-girl-06.jpg"
 categories:
   - review
   - fansub
