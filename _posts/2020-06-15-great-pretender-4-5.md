@@ -2,6 +2,7 @@
 layout: post
 title: "[Die Hot]  Great Pretender - 04-05"
 author: convex
+excerpt: ""
 comments: true
 image:
   feature: "2020-06-15-great-pretender.jpg"
