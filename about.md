@@ -4,7 +4,7 @@ title:  About
 permalink: /about/
 ---
 
-Kinsho Mokuroku is a blog primarily devoted to discussing the dubious quality of various cartoon translations that can be found on a cat website (read: bullying teenagers enjoying their hobbies). It was started by Blankaex and convex in late 2019 completely on whim.
+_Kinsho Mokuroku_ is a blog primarily devoted to discussing the dubious quality of various cartoon translations that can be found on a cat website (read: bullying teenagers enjoying their hobbies). It was started by Blankaex and convex in late 2019 completely on whim.
 
 ```
 [20:41] <convex> I'll do reviews if someone gets a site up
