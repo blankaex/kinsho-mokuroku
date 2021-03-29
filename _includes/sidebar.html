@@ -1,6 +1,8 @@
 <div class="cover-card table-cell table-middle">
   <a href="{{ site.url }}/" class="site_title">{{ site.title }}</a>
-  <span class="site_description">{{ site.description }}</span>
+  {% assign year = 'now' | date: "%Y" %}
+  {% assign diff = year | minus: 2019 %}
+  <span class="site_description">{{ site.description }}+{{diff}}</span>
   <nav class="nav">
     <ul class="nav-list">
       <li class="nav-item">
