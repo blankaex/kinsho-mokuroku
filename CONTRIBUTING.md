@@ -8,4 +8,4 @@
     * Feature filename should match the post filename
     * `.jpg` only, keep it under a few hundred kB
 * Add yourself to the list of authors on [`about.md`](https://github.com/blankaex/kinsho-mokuroku/blob/master/about.md)
-* Assign @blankaex to review your PR
+* Assign [@blankaex](https://github.com/blankaex) to review your PR
