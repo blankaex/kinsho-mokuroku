@@ -19,3 +19,7 @@ _Kinsho Mokuroku_ is a blog primarily devoted to discussing the dubious quality 
 
 * Blankaex
 * convex
+
+### Contributing
+
+If you'd like to post on _Kinmoku_, see [`CONTRIBUTING.md`](https://github.com/blankaex/kinsho-mokuroku/blob/master/CONTRIBUTING.md).
